@@ -1,4 +1,8 @@
 {
 	"name": "pouchdb-update",
-	"main": "index.js"
+	"main": "index.js",
+	"scripts": {
+		"build-js": "mkdir -p ../../dist && browserify index.js -s Update -o ../../dist/pouchdb-update.js",
+		"build": "npm run build-js; cd ../../dist; uglifyjs pouchdb-update.js -mc > pouchdb-update.min.js"
+	}
 }
