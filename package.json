@@ -1,14 +1,10 @@
 {
 	"name": "pouchdb-update",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"main": "index.js",
 	"description": "A PouchDB plug-in that allows you to re-use your CouchDB update functions on the client side.",
-	"repository": {
-		"type": "bzr",
-		"url": "http://bazaar.launchpad.net/~marten-de-vries/python-pouchdb/0.x"
-	},
+	"repository": "pouchdb/pouchdb-update",
 	"homepage": "http://python-pouchdb.marten-de-vries.nl/plugins.html",
-	"bugs": "https://bugs.launchpad.net/python-pouchdb",
 	"keywords": [
 		"pouch",
 		"pouchdb",
@@ -35,12 +31,7 @@
 		"es3ify": "^0.1.3"
 	},
 	"scripts": {
-		"build-js": "mkdir -p ../../dist && browserify index.js -s Update -o ../../dist/pouchdb-update.js",
-		"build": "npm run build-js; cd ../../dist; uglifyjs pouchdb-update.js -mc > pouchdb-update.min.js"
-	},
-	"browserify": {
-		"transform": [
-			"es3ify"
-		]
+		"build-js": "mkdir -p dist && browserify index.js -s Update -g es3ify -o dist/pouchdb-update.js",
+		"build": "npm run build-js; cd dist; uglifyjs pouchdb-update.js -mc > pouchdb-update.min.js"
 	}
 }
