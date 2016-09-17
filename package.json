@@ -24,7 +24,7 @@
     "promise-nodify": "^1.0.0",
     "pouchdb-req-http-query": "^1.0.3",
     "couchdb-resp-completer": "^1.0.0",
-    "pouchdb-promise": "^0.0.0",
+    "pouchdb-promise": "^6.0.5",
     "pouchdb-plugin-error": "^1.0.0"
   },
   "devDependencies": {
