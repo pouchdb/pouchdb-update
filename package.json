@@ -19,7 +19,7 @@
   "license": "Apache-2.0",
   "author": "Marten de Vries",
   "dependencies": {
-    "couchdb-objects": "^1.0.0",
+    "couchdb-objects": "^1.0.7",
     "couchdb-eval": "^1.0.0",
     "promise-nodify": "^1.0.0",
     "pouchdb-req-http-query": "^1.0.3",
