@@ -1,6 +1,8 @@
 pouchdb-update
 ==============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pouchdb/pouchdb-update.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/pouchdb/pouchdb-update.svg?branch=master)](https://travis-ci.org/pouchdb/pouchdb-update)
 [![Dependency Status](https://david-dm.org/pouchdb/pouchdb-update.svg)](https://david-dm.org/pouchdb/pouchdb-update)
 [![devDependency Status](https://david-dm.org/pouchdb/pouchdb-update/dev-status.svg)](https://david-dm.org/pouchdb/pouchdb-update#info=devDependencies)
